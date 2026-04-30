@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Ava Green",
+    "description": "A mysterious story about a hidden forest that holds ancient secrets.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Future of AI",
+    "author": "John Carter",
+    "description": "An introduction to artificial intelligence and its future impact.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Space Exploration",
+    "author": "Dr. Emily Stone",
+    "description": "Exploring human missions beyond Earth and into deep space.",
+    "category": "Science",
+    "available_quantity": 15,
+    "image_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Lost Kingdom",
+    "author": "Michael Brown",
+    "description": "An adventure through a forgotten ancient kingdom.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Web Development Mastery",
+    "author": "Sara Ahmed",
+    "description": "A complete guide to modern web development technologies.",
+    "category": "Tech",
+    "available_quantity": 20,
+    "image_url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Quantum Physics Basics",
+    "author": "Robert Wilson",
+    "description": "Understanding the fundamentals of quantum physics.",
+    "category": "Science",
+    "available_quantity": 10,
+    "image_url": "https://images.unsplash.com/photo-1581093588401-12f6c3b8f5c5?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 7,
+    "title": "The Last Warrior",
+    "author": "Liam Scott",
+    "description": "A heroic tale of the last warrior defending his land.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Cyber Security Essentials",
+    "author": "Nina Roy",
+    "description": "Learn how to protect systems from cyber threats.",
+    "category": "Tech",
+    "available_quantity": 14,
+    "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 9,
+    "title": "The Human Brain",
+    "author": "Dr. Alan Moore",
+    "description": "A deep dive into neuroscience and brain functions.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 10,
+    "title": "Journey to the Mountains",
+    "author": "Sophia Lee",
+    "description": "A travel story through dangerous and beautiful mountains.",
+    "category": "Story",
+    "available_quantity": 11,
+    "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 11,
+    "title": "Database Design Guide",
+    "author": "Kevin Thomas",
+    "description": "Learn how to design efficient and scalable databases.",
+    "category": "Tech",
+    "available_quantity": 13,
+    "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 12,
+    "title": "Climate Change Explained",
+    "author": "Emma Watson",
+    "description": "Understanding the science behind global climate change.",
+    "category": "Science",
+    "available_quantity": 18,
+    "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80"
+  }
+]
