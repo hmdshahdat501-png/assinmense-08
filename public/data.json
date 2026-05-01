@@ -3,7 +3,7 @@
     "id": 1,
     "title": "The Lost Kingdom",
     "author": "A. Rahman",
-    "description": "A thrilling adventure story.",
+    "description": "The Lost Kingdom is an epic adventure story that follows a young explorer who discovers a hidden civilization deep within an uncharted jungle. As he uncovers ancient secrets, mysterious symbols, and forgotten history, he must face dangerous enemies and powerful forces that protect the kingdom. This story blends action, mystery, and emotional depth, making it a thrilling journey of courage and discovery.",
     "category": "Story",
     "available_quantity": 12,
     "image_url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=400&q=80"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Modern JavaScript",
     "author": "John Doe",
-    "description": "Learn JavaScript deeply.",
+    "description": "Modern JavaScript is a complete and practical guide designed for developers who want to master JavaScript from basics to advanced concepts. It covers ES6 features, asynchronous programming, APIs, and real-world project building. The book provides clear explanations, code examples, and best practices to help readers become confident developers in modern web development environments.",
     "category": "Tech",
     "available_quantity": 20,
     "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Quantum World",
     "author": "Dr. Smith",
-    "description": "Physics and quantum science.",
+    "description": "Quantum World takes readers deep into the fascinating and complex realm of quantum physics. It explains fundamental concepts such as quantum particles, uncertainty principles, and wave functions in a simple and understandable way. This book is perfect for anyone curious about how the universe behaves at its smallest scales and how these theories shape modern science and technology.",
     "category": "Science",
     "available_quantity": 8,
     "image_url": "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=400&q=80"
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "Forest Tales",
     "author": "Lina Ferdous",
-    "description": "Nature-based stories.",
+    "description": "Forest Tales is a beautiful collection of short stories inspired by nature and wildlife. Each story explores the relationship between humans and the natural world, filled with emotions, imagination, and lessons about life. From mysterious forests to hidden creatures, the book creates a magical reading experience that connects readers with nature.",
     "category": "Story",
     "available_quantity": 15,
     "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=400&q=80"
@@ -39,7 +39,7 @@
     "id": 5,
     "title": "AI for Beginners",
     "author": "Michael Lee",
-    "description": "Introduction to AI.",
+    "description": "AI for Beginners is an introductory guide to artificial intelligence that explains complex topics in a simple and engaging way. It covers machine learning, neural networks, and real-life applications of AI. Whether you are a student or a professional, this book helps you understand how AI is transforming industries and shaping the future.",
     "category": "Tech",
     "available_quantity": 10,
     "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80"
@@ -48,7 +48,7 @@
     "id": 6,
     "title": "Space Exploration",
     "author": "NASA Team",
-    "description": "Universe journey.",
+    "description": "Space Exploration is an exciting journey through the history and future of space missions. It highlights major discoveries, astronaut experiences, and technological advancements that made space travel possible. The book inspires readers to imagine the possibilities beyond Earth and understand the challenges of exploring the universe.",
     "category": "Science",
     "available_quantity": 5,
     "image_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=400&q=80"
@@ -57,7 +57,7 @@
     "id": 7,
     "title": "Broken Dreams",
     "author": "Shahdat Hossen",
-    "description": "Emotional story.",
+    "description": "Broken Dreams is a deeply emotional story about ambition, failure, and hope. It follows a young individual struggling to achieve his dreams in a world full of challenges and setbacks. The story captures real-life emotions, personal growth, and the strength to rise again after failure.",
     "category": "Story",
     "available_quantity": 18,
     "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80"
@@ -66,7 +66,7 @@
     "id": 8,
     "title": "Web Development Mastery",
     "author": "Sarah Khan",
-    "description": "Become a web developer.",
+    "description": "Web Development Mastery is a complete roadmap for becoming a professional web developer. It covers HTML, CSS, JavaScript, frameworks, and deployment strategies. The book focuses on practical skills, real-world projects, and modern tools that are essential for building responsive and scalable web applications.",
     "category": "Tech",
     "available_quantity": 22,
     "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80"
@@ -75,7 +75,7 @@
     "id": 9,
     "title": "The Human Brain",
     "author": "Dr. Ahmed",
-    "description": "Brain science study.",
+    "description": "The Human Brain explores the structure and function of the brain in an engaging and informative way. It explains how thoughts, emotions, and behaviors are controlled by neural systems. The book is ideal for readers interested in psychology, neuroscience, and understanding the complexity of human intelligence.",
     "category": "Science",
     "available_quantity": 9,
     "image_url": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=400&q=80"
@@ -84,7 +84,7 @@
     "id": 10,
     "title": "Desert Journey",
     "author": "Imran Ali",
-    "description": "Survival story.",
+    "description": "Desert Journey is a gripping survival story set in a vast and unforgiving desert. It tells the story of a traveler who must overcome extreme conditions, loneliness, and danger to survive. The book highlights resilience, courage, and the will to live against all odds.",
     "category": "Story",
     "available_quantity": 14,
     "image_url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?auto=format&fit=crop&w=400&q=80"
@@ -93,7 +93,7 @@
     "id": 11,
     "title": "Cloud Computing Basics",
     "author": "Tech Guru",
-    "description": "Cloud systems learning.",
+    "description": "Cloud Computing Basics provides a clear understanding of how cloud systems work. It explains infrastructure, services, deployment models, and security in simple terms. This book is perfect for beginners who want to learn how modern applications are built and managed in the cloud.",
     "category": "Tech",
     "available_quantity": 11,
     "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&q=80"
@@ -102,7 +102,7 @@
     "id": 12,
     "title": "Reyla Book",
     "author": "Unknown",
-    "description": "Mystery book cover.",
+    "description": "Reyla Book is a mysterious and imaginative story that takes readers into a world filled with hidden meanings, symbols, and unknown powers. The story follows a character named Reyla, who discovers secrets about her past and unlocks abilities she never knew existed. The book blends fantasy, mystery, and emotional storytelling, creating a unique and engaging experience.",
     "category": "Story",
     "available_quantity": 7,
     "image_url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?auto=format&fit=crop&w=400&q=80"
