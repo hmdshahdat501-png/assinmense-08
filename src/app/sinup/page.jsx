@@ -1,23 +1,43 @@
-
 "use client";
 import { authClient } from "@/lib/auth-client";
 import {Check} from "@gravity-ui/icons";
 import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
-const LoginPage = () => {
+
+const SinUP = () => {
     const onSubmit = async(e) => {
     e.preventDefault();
-     const formData = new FormData(e.currentTarget);
+    const formData = new FormData(e.currentTarget);
    const userData = Object.fromEntries(formData.entries());
-   const { data, error } = await authClient.signIn.email({
-    email: userData.email, 
+   const { data, error } = await authClient.signUp.email({
+    name: userData.name,
+    email: userData.email,
     password: userData.password,
-    callbackURL: "/",
-});
-console.log(data, error)
-    };
+    image: userData.image
+  });
+  console.log(data, error)
+}
     return (
        <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm">
         <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
+            <TextField
+        isRequired
+        minLength={8}
+        name="name"
+        type="text">
+        <Label>Name</Label>
+        <Input placeholder="Enter your name" />
+        <FieldError />
+      </TextField>
+           <TextField
+  isRequired
+  minLength={8}
+  name="image"
+  type="url"
+>
+  <Label>Image URL</Label>
+  <Input placeholder="Enter image URL" />
+  <FieldError />
+</TextField>
       <TextField
         isRequired
         name="email"
@@ -56,6 +76,7 @@ console.log(data, error)
         <Description>Must be at least 8 characters with 1 uppercase and 1 number</Description>
         <FieldError />
       </TextField>
+      
       <div className="flex gap-2">
         <Button type="submit">
           <Check />
@@ -70,4 +91,4 @@ console.log(data, error)
     );
 };
 
-export default LoginPage;
+export default SinUP;
