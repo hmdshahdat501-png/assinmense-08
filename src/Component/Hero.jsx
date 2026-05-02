@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import bnnerimge from '../../public/Gemini_Generated_Image_9epwod9epwod9epw.png'
-const Hero = () => {
+import Marquee from "react-fast-marquee";
+const Hero = ({data}) => {
+  const mark = data.map(dtrs=> dtrs.title)
   return (
    <div className="mx-auto container">
      <section className="relative w-full h-[90vh] flex items-center justify-center text-center">
@@ -22,9 +24,9 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Welcome to BookLence
         </h1>
-        <p className="text-lg md:text-xl mb-6">
-          Discover your favorite books anytime, anywhere 📚
-        </p>
+        <div className="text-lg md:text-xl mb-6">
+          <div className="flex items-center container mx-auto"><p className="bg-red-500 p-1.5 px-3">Arrivals</p> <Marquee> {mark}</Marquee>n</div>
+        </div>
 
         <div className="flex justify-center gap-4">
           <Link href="/books">

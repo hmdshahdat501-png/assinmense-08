@@ -1,11 +1,16 @@
-import React from 'react';
+"use client";
+import { authClient } from "@/lib/auth-client";
+import React from "react";
 
 const MyprofilePage = () => {
-    return (
-        <div>
-            safdfas
-        </div>
-    );
+const {data:session, isPending} = authClient.useSession();
+ 
+console.log(session.user)
+
+  return (
+   <div>dfjd</div>
+  );
+
 };
 
 export default MyprofilePage;

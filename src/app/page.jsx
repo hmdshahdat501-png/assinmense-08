@@ -1,5 +1,8 @@
 
 import Hero from '@/Component/Hero';
+import Rewiw from '@/Component/Rewiw';
+import She from '@/Component/She';
+import Shapping from '@/Component/She';
 import { Button } from '@heroui/react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,9 +15,10 @@ const HomePage = async() => {
   const data = await res.json();
   console.log(data)
   return (
-    <div className=''>
+   <div>
+     <div className='mx-auto'>
       
-      <Hero></Hero>
+      <Hero data = {data}></Hero>
      <div className='grid grid-cols-3 container mx-auto gap-8 mt-8'>
        {
         data.slice(0, 6).map( dat=>  <div className='bg-white shadow p-4 rounded-lg' key={dat.id}>
@@ -29,10 +33,14 @@ const HomePage = async() => {
            <Link href= {`deltes/${dat.id}`}><button className='bg-blue-700 text-white w-full rounded-sm mt-4 font-bold'>View Detles</button></Link>
         </div>)
       }
-      
+     
      </div>
-     <div className='mx-auto'><Button size='lg'>See more</Button></div>
+      <Link href={'/books'}><Button className={'block mt-6 mx-auto'}>See more</Button></Link>
+     
     </div>
+    <Rewiw></Rewiw>
+    <She></She>
+   </div>
   );
 };
 

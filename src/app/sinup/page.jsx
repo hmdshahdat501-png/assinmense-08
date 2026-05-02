@@ -1,4 +1,5 @@
 "use client";
+
 import { authClient } from "@/lib/auth-client";
 import {Check} from "@gravity-ui/icons";
 import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
@@ -9,12 +10,13 @@ const SinUP = () => {
     const formData = new FormData(e.currentTarget);
    const userData = Object.fromEntries(formData.entries());
    const { data, error } = await authClient.signUp.email({
-    name: userData.name,
-    email: userData.email,
+    name: userData.name , 
+    email: userData.email ,
     password: userData.password,
     image: userData.image
-  });
-  console.log(data, error)
+});
+console.log(data, error)
+
 }
     return (
        <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm">
