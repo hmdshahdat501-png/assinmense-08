@@ -3,6 +3,7 @@
 import { authClient } from "@/lib/auth-client";
 import {Check} from "@gravity-ui/icons";
 import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
+import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
 const LoginPage = () => {
   const googleHandle = async () => {
@@ -23,6 +24,7 @@ const LoginPage = () => {
     };
     return (
        <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm">
+        
         <h2 className="text-center text-4xl font-bold p-4">SigIn</h2>
         <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
       <TextField
@@ -75,6 +77,7 @@ const LoginPage = () => {
     </Form>
     <p className="text-center">or</p>
     <Button onClick={googleHandle} variant="outline" className={'w-full mt-2'}><GrGoogle></GrGoogle> Sign In with Google</Button>
+    <Link href={'/sinup'}><p  className="text-center  mt-2 text-blue-500">Regestion Now</p></Link>
        </div>
     );
 };

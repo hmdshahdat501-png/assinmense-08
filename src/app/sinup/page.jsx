@@ -15,11 +15,12 @@ const SinUP = () => {
     password: userData.password,
     image: userData.image
 });
-console.log(data, error)
+window.location.href = "/login";
 
 }
     return (
        <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm">
+        <h2 className="text-center text-2xl font-bold my-4">Regestion Now</h2>
         <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
             <TextField
         isRequired

@@ -1,7 +1,12 @@
+
+import Button from '@/Component/Button';
+import { authClient } from '@/lib/auth-client';
 import Image from 'next/image';
 import React from 'react';
 
 const DetelsPage = async({ params }) => {
+
+    
     const {id} = await params;
     const res = await fetch('http://localhost:3000/data.json',{
     cache: 'no-store'
@@ -9,6 +14,8 @@ const DetelsPage = async({ params }) => {
   const data = await res.json();
   const det = data.find(dtr=> dtr.id == id);
   console.log(det)
+
+
     return (
         <div className='mx-auto container flex mt-8 gap-4 bg-white p-4 shadow border rounded-sm'>
            <div>
@@ -22,7 +29,7 @@ const DetelsPage = async({ params }) => {
                           <p className='bg-red-300 rounded-sm px-1 text-red-600 font-bold'>Quantity: {det.available_quantity}</p>
                          
                         </div>
-                        <button className='mt-4 bg-blue-600 text-white px-32 rounded-md font-bold text-xl'>Borrow This Book</button>
+                       <Button></Button>
             </div>
         </div>
     );
