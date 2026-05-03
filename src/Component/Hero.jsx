@@ -14,7 +14,7 @@ const Hero = ({data}) => {
           alt="Hero Background"
           fill
           priority
-          className="object-cover"
+          className="object-cover "
         />
         <div className="absolute inset-0 bg-black/60"></div>
       </div>

@@ -19,11 +19,11 @@ const HomePage = async() => {
      <div className='mx-auto'>
       
       <Hero data = {data}></Hero>
-     <div className='grid grid-cols-3 container mx-auto gap-8 mt-8 '>
+     <div className='grid  grid-cols-1 container mx-auto gap-8 mt-8 lg:grid-cols-3'>
        {
         data.slice(0, 6).map( dat=>  <div className='bg-white shadow p-4 rounded-lg hover:animate__animated animate__slideInUp' key={dat.id}>
        
-            <Image className='rounded-sm' width={500} height={300} src={dat.image_url} alt='book image'></Image>
+            <Image className='rounded-sm ' width={500} height={300} src={dat.image_url} alt='book image'></Image>
             <h2 className='text-xl font-bold mt-2'>{dat.title}</h2>
             <div className='flex justify-between'>
               <p className='bg-green-300 rounded-sm px-2 text-green-600 font-bold'>Author: {dat.author}</p>

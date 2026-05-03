@@ -49,7 +49,7 @@ const AllBooksPage = () => {
       </div>
 
    
-      <div className='grid grid-cols-3 gap-4'>
+      <div className='grid grid-cols-1 gap-4 lg:grid-cols-3'>
         {
           result.length === 0 ? (
             <p className="col-span-3 text-center text-gray-500">
