@@ -11,7 +11,7 @@ const AllBooksPage = () => {
   const [result, setResult] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/data.json')
+    fetch('https://assinmense-08.vercel.app/data.json')
       .then(res => res.json())
       .then(data => {
         setData(data);

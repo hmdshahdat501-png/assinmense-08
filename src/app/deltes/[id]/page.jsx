@@ -8,7 +8,7 @@ const DetelsPage = async({ params }) => {
 
     
     const {id} = await params;
-    const res = await fetch('http://localhost:3000/data.json',{
+    const res = await fetch('https://assinmense-08.vercel.app/data.json',{
     cache: 'no-store'
   })
   const data = await res.json();
