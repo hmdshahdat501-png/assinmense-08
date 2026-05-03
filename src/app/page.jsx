@@ -19,9 +19,9 @@ const HomePage = async() => {
      <div className='mx-auto'>
       
       <Hero data = {data}></Hero>
-     <div className='grid grid-cols-3 container mx-auto gap-8 mt-8'>
+     <div className='grid grid-cols-3 container mx-auto gap-8 mt-8 '>
        {
-        data.slice(0, 6).map( dat=>  <div className='bg-white shadow p-4 rounded-lg' key={dat.id}>
+        data.slice(0, 6).map( dat=>  <div className='bg-white shadow p-4 rounded-lg hover:animate__animated animate__slideInUp' key={dat.id}>
        
             <Image className='rounded-sm' width={500} height={300} src={dat.image_url} alt='book image'></Image>
             <h2 className='text-xl font-bold mt-2'>{dat.title}</h2>

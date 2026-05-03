@@ -35,10 +35,12 @@ const handelsingOut = async() =>{
             <p>Loading...</p>
           ) : user ? (
             <div className="flex items-center gap-3">
-              {/* <Image 
+             <Link href={'/profile'}>
+             <Image 
                       src={user?.image || "https://i.ibb.co/4pDNDk1/avatar.png"}
                       className="w-10 h-10 rounded-full mx-auto mt-2 "
-                     alt="imaeg" width={200} height={200}/> */}
+                     alt="imaeg" width={200} height={200}/>
+             </Link>
               <Button onClick={handelsingOut}>Log Out</Button>
             </div>
           ) : (

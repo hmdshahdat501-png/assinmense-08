@@ -57,7 +57,7 @@ const AllBooksPage = () => {
             </p>
           ) : (
             result.map(dat => (
-              <div className='bg-white shadow p-4 rounded-lg' key={dat.id}>
+              <div className='bg-white shadow p-4 rounded-lg animate__animated animate__slideInUp' key={dat.id}>
                 
                 <Image
                   className='rounded-sm'

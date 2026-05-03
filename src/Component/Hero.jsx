@@ -21,11 +21,11 @@ const Hero = ({data}) => {
 
       {/* Content */}
       <div className="relative z-10 text-white px-6">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 animate__animated animate__bounceInDown ">
           Welcome to BookLence
         </h1>
         <div className="text-lg md:text-xl mb-6">
-          <div className="flex items-center container mx-auto"><p className="bg-red-500 p-1.5 px-3">Arrivals</p> <Marquee> {mark}</Marquee>n</div>
+          <div className="flex items-center mx-auto"><p className="bg-red-500 p-1.5 px-3">Arrivals</p> <Marquee>Huge Discount on Best-Selling Books — Don’t Miss Out!  Huge Discount on Best-Selling Books — Don’t Miss Out!  </Marquee></div>
         </div>
 
         <div className="flex justify-center gap-4">

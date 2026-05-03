@@ -17,7 +17,7 @@ const DetelsPage = async({ params }) => {
 
 
     return (
-        <div className='mx-auto container flex mt-8 gap-4 bg-white p-4 shadow border rounded-sm'>
+        <div className='mx-auto container flex mt-8 gap-4 bg-white p-4 shadow border rounded-sm animate__animated animate__backInLeft'>
            <div>
             <Image className='rounded-md' src={det.image_url} alt='book image' width={1500} height={1000}></Image>
             </div>

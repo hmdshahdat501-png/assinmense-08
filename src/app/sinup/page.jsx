@@ -3,8 +3,14 @@
 import { authClient } from "@/lib/auth-client";
 import {Check} from "@gravity-ui/icons";
 import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
+import { GrGoogle } from "react-icons/gr";
 
 const SinUP = () => {
+    const googleHandle = async () => {
+    await authClient.signIn.social({
+      provider: "google",
+    });
+  }
     const onSubmit = async(e) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -15,11 +21,12 @@ const SinUP = () => {
     password: userData.password,
     image: userData.image
 });
+
 window.location.href = "/login";
 
 }
     return (
-       <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm">
+       <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm animate__animated animate__backInDown ">
         <h2 className="text-center text-2xl font-bold my-4">Regestion Now</h2>
         <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
             <TextField
@@ -90,6 +97,8 @@ window.location.href = "/login";
         </Button>
       </div>
     </Form>
+    <p className="text-center">or</p>
+        <Button onClick={googleHandle} variant="outline" className={'w-full mt-2'}><GrGoogle></GrGoogle> Sign In with Google</Button>
        </div>
     );
 };

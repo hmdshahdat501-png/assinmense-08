@@ -1,8 +1,8 @@
 
 "use client";
 import { authClient } from "@/lib/auth-client";
-import {Check} from "@gravity-ui/icons";
-import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
+import {Check, Person} from "@gravity-ui/icons";
+import {Button, Description, FieldError, Form, Input, Label, TextField, toast} from "@heroui/react";
 import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
 const LoginPage = () => {
@@ -20,11 +20,11 @@ const LoginPage = () => {
     password: userData.password,
     callbackURL: "/",
 });
-  console.log(data, error)
+ 
     };
     return (
-       <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm">
-        
+       <div className="mx-auto mt-10 bg-white p-4  shadow border rounded-sm animate__animated animate__backInDown ">
+
         <h2 className="text-center text-4xl font-bold p-4">SigIn</h2>
         <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
       <TextField
